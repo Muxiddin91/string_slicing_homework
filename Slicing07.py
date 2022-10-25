@@ -9,4 +9,6 @@ def main(s,n):
     """
     if (2 <= len(s) <= 10**5) and (1 <= n <= len(s)):
         return s[0:(len(s)-n)]
+    else:
+        return ''
 print(main('hello',25))
