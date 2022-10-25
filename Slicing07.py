@@ -7,5 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return s[0:(len(s)-n)]
-print(main('1234',2))
+    if (2 <= len(s) <= 10**5) and (1 <= n <= len(s)):
+        return s[0:(len(s)-n)]
+print(main('hello',25))
