@@ -6,5 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return s[1::2]
-print(main('12345678'))
+    return s[::2]
+print(main('012345678lg'))
