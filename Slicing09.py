@@ -7,4 +7,4 @@ def main(s):
         str: answer
     """
     return s[1::2]
-print(main('123456'))
+print(main('12345678'))
